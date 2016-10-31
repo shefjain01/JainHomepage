@@ -5,20 +5,25 @@
 [
 <!ELEMENT services (service,body)>
 <!ELEMENT service (#PCDATA)>
-<!ELEMENT body (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT contact (#PCDATA)>
+
 ]>
 
 <services>
 <service>BPC Implementation Services</service>
-<body>We offer full suite of implementation services, from concept to commission. Our consultants have multi-year of experience in consulting and industry. Services include conducting workshops, defining requirements, designing custom solutions, developing, testing and implementing solutions</body>
+<body>We offer full suite of implementation services, from concept to commission. Our consultants have multi-year of experience in consulting and industry. Services include conducting workshops, defining requirements, designing custom solutions, developing, testing and implementing solutions</description>
+<contact>Contact Rajesh Jain at rajeshjain@talentsap.com for more information.</contact>
 </services>
 
 <services>
 <service>BPC Planning Solutions for FP and A</service>
-<body>We offer solution and implementation services for planning and budgeting activities for corporate accounting. This includes strategic planning, annual operating plans, Capex and Opex planning, HR planning etc.</body>
+<description>We offer solution and implementation services for planning and budgeting activities for corporate accounting. This includes strategic planning, annual operating plans, Capex and Opex planning, HR planning etc.</description>
+<contact>Contact Sid Jain at sidjain@talentsap.com for more information.</contact>
 </services>
 
 <services>
 <service><BPC training Services/service>
-<body>We offer comprehensive training to employees for optimal and efficient use of BPC applications.</body>
+<description>We offer comprehensive training to employees for optimal and efficient use of BPC applications. For a brief overview of what BPC is, please click here.</description>
+<contact>Contact Shefali Jain at shefalijain@talentsap.com for more information.</contact>
 </services>
